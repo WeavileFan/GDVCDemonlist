@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <title>DewDemonList</title>
+        <title>GDVC Demonlist</title>
 
         <!-- Website icon -->
         <link rel="icon" href="./list_icon.png" />
@@ -50,7 +50,7 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
            <div class="logo">
-    <h2>DDL</h2>
+    <h2>GDVC DL</h2>
     <p>{{ store.timeMachineVersion || 'v1.9' }}</p>
 </div>
 
@@ -74,10 +74,6 @@
                 <router-link class="nav__tab" to="/timemachine">
                     <span class="type-label-lg">Time Machine</span>
                 </router-link>
-                <router-link class="nav__tab" to="/ddl-plus">
-                    <span class="type-label-lg">DDL+</span>
-                </router-link>
-
                 <div class="nav__actions">
                     <button
                         class="nav__icon"
