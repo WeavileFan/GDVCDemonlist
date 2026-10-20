@@ -1,0 +1,38 @@
+{
+    "id": 186,
+    "name": "Cradles",
+    "author": "Marcigdpsaccount",
+    "creators": ["Marcigdpsaccount"],
+    "verifier": "Phobixl",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://youtu.be/RnOJA3EzV-U?si=yg7XkpuA2C6U4UuA",
+    "percentToQualify": 50,
+    "enjoyment": "8/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 186,
+            "text": "Allowed (Default)"
+        },
+        {
+            "id": 189,
+            "text": "Allowed (Startpos)"
+        }
+    ],
+    "records": [
+        {
+            "user": "Davidshaft",
+            "link": "https://youtu.be/TzJWbcc0_24",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "CBF"
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nLabxNskDun7k3yXR?invite=cr-MSxVbUYsNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        }
+    ]
+}
