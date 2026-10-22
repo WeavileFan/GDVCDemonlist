@@ -1,0 +1,34 @@
+{
+    "id": 105,
+    "name": "Dark Dragon Fire",
+    "author": "Strdeh",
+    "creators": ["Strdeh"],
+    "verifier": "Strdeh",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://www.youtube.com/watch?v=6LD9C1D01pA",
+    "percentToQualify": 50,
+    "enjoyment": "4/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 105,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "neon",
+            "link": "https://outplayed.tv/geometry-dash/8nRyn7",
+            "percent": 100,
+            "hz": "Not specified",
+            "clickMethod": "Not specified"
+        },
+        {
+            "user": "SirAlekReal",
+            "link": "https://www.youtube.com/watch?v=D9ptCANcLWE",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "CBF"
+        }
+    ]
+}
