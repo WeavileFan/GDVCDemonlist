@@ -30,6 +30,28 @@ Now, follow these steps carefully.
 1. Replace the # on line 2 with the level id
 2. Replace the # on line 3 with the publisher of the level
 3. Replace the # on line 3 with every creator of the level (separated with commas)
-4. Replace the # on line 4 with 
-5. 
-6. 
+4. Replace the # on line 4 with "Click Between Frames" or “Click on Steps”
+5. Replace the # on line 5 with the verification video
+6. Replace the # on line 7 with the enjoyment rating
+7. Replace the # on line 11 with the level ID (again)  
+After that, your code should look something like this:
+```
+{
+    "id": 105,
+    "name": "Dark Dragon Fire",
+    "author": "Strdeh",
+    "creators": ["Strdeh"],
+    "verifier": "Strdeh",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://www.youtube.com/watch?v=6LD9C1D01pA",
+    "percentToQualify": 50,
+    "enjoyment": "4/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 105,
+            "text": "Allowed (Default)"
+        }
+    ],
+}
+```
