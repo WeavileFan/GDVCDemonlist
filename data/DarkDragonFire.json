@@ -16,6 +16,34 @@
         }
     ],
     "records": [
+            {
+            "user": "Davidshaft",
+            "link": "https://www.youtube.com/watch?v=Z8akB9hBc84",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nIkylAOeLakRsfCVs?invite=cr-MSx5UEYsNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "weavilegmd",
+            "link": "https://www.youtube.com/watch?v=69joFjiRneg",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "lucidity",
+            "link": "https://www.youtube.com/watch?v=1_0uflcFqjk",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "CBF"
+        },
         {
             "user": "neon",
             "link": "https://outplayed.tv/geometry-dash/8nRyn7",
