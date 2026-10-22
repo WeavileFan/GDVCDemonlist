@@ -57,6 +57,13 @@
             "percent": 100,
             "hz": 300,
             "clickMethod": "COS"
+        },
+        {
+            "user": "Sebdagod",
+            "link": "https://medal.tv/games/geometry-dash/clips/nMh02O8cFbBIGyVMh?invite=cr-MSxtUkUsNjQwMzM2NDMz",
+            "percent": 100,
+            "hz": 60,
+            "clickMethod": "CBF"
         }
     ]
 }
