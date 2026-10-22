@@ -44,12 +44,18 @@
             "hz": 80,
             "clickMethod": "COS"
         },
-
         {
             "user": "lucidity",
             "link": "https://www.youtube.com/watch?v=rob4TI0DfaM",
             "percent": 100,
             "hz": 60,
+            "clickMethod": "COS"
+        },
+        {
+            "user": "SirAlekReal",
+            "link": "https://www.youtube.com/watch?v=-TEDhcpfiuE",
+            "percent": 100,
+            "hz": 300,
             "clickMethod": "COS"
         }
     ]
