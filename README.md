@@ -33,7 +33,8 @@ Now, follow these steps carefully.
 4. Replace the # on line 4 with "Click Between Frames" or “Click on Steps”
 5. Replace the # on line 5 with the verification video
 6. Replace the # on line 7 with the enjoyment rating
-7. Replace the # on line 11 with the level ID (again)  
+7. Replace the # on line 11 with the level ID (again)
+   
 After that, your code should look something like this:
 ```
 {
