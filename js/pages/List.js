@@ -144,7 +144,7 @@ export default {
 </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        1. No Hacks Allowed (Except for FPS Bypass, but only up to 360 FPS)
+                        1. No Hacks Allowed (Except for FPS Bypass)
                     </p>
                     <p>
                         2. TPS Bypass is Strictly Prohibited
@@ -156,25 +156,16 @@ export default {
                         4. Clicks must be heard and sync with the video (Use a CPS Counter that flashes green to prove it easier)
                     </p>
                     <p>
-                        5. The Recording must show the previous attempt death, unless the completion is on the first attempt, then show Any Death with No edits (Like Replay the Level and instantly Die)
+                        5. The Recording Must show the Level Completed screen
                     </p>
                     <p>
-                        6. The Recording Must show the player hit the End Wall or End Trigger
+                        6. No Secret Ways (Swag Routes are allowed to a degree)
                     </p>
                     <p>
-                        7. No Secret Ways (Swag Routes are allowed to a degree)
+                        7. Must be the Original Version of the Level, no modifications (Only Certain Startpos Levels are allowed)
                     </p>
                     <p>
-                        8. Must be the Original Version of the Level, no modifications (Only Certain Startpos Levels are allowed)
-                    </p>
-                    <p>
-                        9. Demonlist Levels cannot be a Reupload from the normal GD Servers
-                    </p>
-                    <p>
-                        10. New Top 1 Levels can't be too big of a Jump from the Current Top 1 Level
-                    </p>
-                    <p>
-                        11. The Recording Must show a cheat indicator
+                        8. The Recording Must show a cheat indicator
                     </p>
                 </div>
             </div>
