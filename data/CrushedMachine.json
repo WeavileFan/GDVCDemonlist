@@ -22,6 +22,11 @@
             "percent": 100,
             "hz": 200,
             "clickMethod": "CBF"
+        },
+        {
+            "user": "neon",
+            "link": "https://outplayed.tv/geometry-dash/m2rz6E",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "COS"
         }
-    ]
-}
