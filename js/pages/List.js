@@ -153,7 +153,7 @@ export default {
                         3. Must be a rated demon on the GDPS
                     </p>
                     <p>
-                        4. Clicks must be heard and synced with the video (Use a CPS C=counter that flashes green to prove it more easily)
+                        4. Clicks must be heard and synced with the video (Use a CPS counter that flashes green to prove it more easily)
                     </p>
                     <p>
                         5. The recording must show the level completion screen
