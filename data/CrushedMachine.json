@@ -3,11 +3,11 @@
     "name": "Crushed Machhine",
     "author": "SirAlekReal",
     "creators": ["SirAlekReal"],
-    "verifier": "SirAlekReal",
+    "verifier": "neon",
     "clickMethod": "CBF",
     "verification": "https://outplayed.tv/geometry-dash/m2rz6E",
     "percentToQualify": 50,
-    "enjoyment": "5/10",
+    "enjoyment": "3/10",
     "password": "Copyable",
     "popupIDs": [
         {
@@ -16,8 +16,12 @@
         }
     ],
  "records": [
-            {
-
+        {
+            "user": "Phobixl",
+            "link": "https://youtu.be/udNa70hMmio",
+            "percent": 100,
+            "hz": 200,
+            "clickMethod": "CBF"
         }
     ]
 }
