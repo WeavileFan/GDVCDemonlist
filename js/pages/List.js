@@ -142,30 +142,30 @@ export default {
         </li>
     </ol>
 </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>Submission requirements</h3>
                     <p>
-                        1. No Hacks Allowed (Except for FPS Bypass)
+                        1. No hacks allowed (except for FPS Bypass)
                     </p>
                     <p>
-                        2. TPS Bypass is Strictly Prohibited
+                        2. TPS Bypass is strictly prohibited
                     </p>
                     <p>
-                        3. Must be a Rated Level on the GDPS
+                        3. Must be a rated demon on the GDPS
                     </p>
                     <p>
-                        4. Clicks must be heard and sync with the video (Use a CPS Counter that flashes green to prove it easier)
+                        4. Clicks must be heard and synced with the video (Use a CPS C=counter that flashes green to prove it more easily)
                     </p>
                     <p>
-                        5. The Recording Must show the Level Completed screen
+                        5. The recording must show the level completion screen
                     </p>
                     <p>
-                        6. No Secret Ways (Swag Routes are allowed to a degree)
+                        6. No secret ways (swag routes are allowed to a degree)
                     </p>
                     <p>
-                        7. Must be the Original Version of the Level, no modifications (Only Certain Startpos Levels are allowed)
+                        7. Must be the original version of the Level, no modifications (only certain startpos levels are allowed)
                     </p>
                     <p>
-                        8. The Recording Must show a cheat indicator
+                        8. The recording must show a cheat indicator
                     </p>
                 </div>
             </div>
