@@ -17,6 +17,13 @@
     ],
  "records": [
         {
+            "user": "neon",
+            "link": "https://outplayed.tv/geometry-dash/m2rz6E",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "COS"
+        },
+        {
             "user": "Phobixl",
             "link": "https://youtu.be/udNa70hMmio",
             "percent": 100,
@@ -24,11 +31,11 @@
             "clickMethod": "CBF"
         },
         {
-            "user": "neon",
-            "link": "https://outplayed.tv/geometry-dash/m2rz6E",
+            "user": "bxinthabrakkk",
+            "link": "https://www.youtube.com/watch?v=MNb3XWcl7eM",
             "percent": 100,
             "hz": 240,
-            "clickMethod": "COS"
+            "clickMethod": "CBF"
         }
     ]
 }
