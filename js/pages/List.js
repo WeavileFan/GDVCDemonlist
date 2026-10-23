@@ -162,7 +162,7 @@ export default {
                         6. No secret ways (swag routes are allowed to a degree)
                     </p>
                     <p>
-                        7. Must be the original version of the Level, no modifications (only certain startpos levels are allowed)
+                        7. Must be the original version of the level, no modifications (only certain startpos levels are allowed)
                     </p>
                     <p>
                         8. The recording must show a cheat indicator
