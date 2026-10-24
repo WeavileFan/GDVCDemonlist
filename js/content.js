@@ -1,59 +1,17 @@
-import { round, score } from './score.js';
-
-/**
- * Path to directory containing `_list.json` and all levels
- */
-const dir = './data';
-
-export async function fetchList(customDir = dir) {
-    const listResult = await fetch(`${customDir}/_list.json`);
-    try {
-        const list = await listResult.json();
-        return await Promise.all(
-            list.map(async (path, rank) => {
-                const levelResult = await fetch(`${customDir}/${path}.json`);
-                try {
-                    const level = await levelResult.json();
-                    return [
-                        {
-                            ...level,
-                            path,
-                            records: level.records.sort(
-                                (a, b) => b.percent - a.percent,
-                            ),
-                        },
-                        null,
-                    ];
-                } catch {
-                    console.error(`Failed to load level #${rank + 1} ${path}.`);
-                    return [null, path];
-                }
-            }),
-        );
-    } catch {
-        console.error(`Failed to load list.`);
-        return null;
-    }
-}
-
-export async function fetchEditors() {
-    try {
-        const editorsResults = await fetch(`${dir}/_editors.json`);
-        const editors = await editorsResults.json();
-        return editors;
-    } catch {
-        return null;
-    }
-}
-
 export async function fetchLeaderboard(customDir = dir) {
     const list = await fetchList(customDir);
+
+    if (!Array.isArray(list)) {
+        return [[], []];
+    }
 
     const scoreMap = {};
     const errs = [];
     list.forEach(([level, err], rank) => {
-        if (err) {
-            errs.push(err);
+        if (err || !level) {
+            if (err) {
+                errs.push(err);
+            }
             return;
         }
 
@@ -75,6 +33,10 @@ export async function fetchLeaderboard(customDir = dir) {
         });
 
         // Records
+        if (!Array.isArray(level.records)) {
+            return;
+        }
+
         level.records.forEach((record) => {
             const user = Object.keys(scoreMap).find(
                 (u) => u.toLowerCase() === record.user.toLowerCase(),
