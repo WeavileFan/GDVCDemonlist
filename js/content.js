@@ -53,17 +53,19 @@ export async function fetchLeaderboard(customDir = './data') {
 
     const scoreMap = {};
     const errs = [];
+
     list.forEach(([level, err], rank) => {
-        if (err || !level) {
+        if (err || !level || typeof level !== 'object') {
             if (err) {
                 errs.push(err);
             }
             return;
         }
 
+        const verifierName = String(level?.verifier ?? 'Unknown Verifier');
         const verifier = Object.keys(scoreMap).find(
-            (u) => u.toLowerCase() === level.verifier.toLowerCase(),
-        ) || level.verifier;
+            (u) => u.toLowerCase() === verifierName.toLowerCase(),
+        ) || verifierName;
 
         scoreMap[verifier] ??= {
             verified: [],
@@ -74,9 +76,9 @@ export async function fetchLeaderboard(customDir = './data') {
         const { verified } = scoreMap[verifier];
         verified.push({
             rank: rank + 1,
-            level: level.name,
-            score: score(rank + 1, 100, level.percentToQualify),
-            link: level.verification,
+            level: level?.name ?? 'Unknown Level',
+            score: score(rank + 1, 100, Number(level?.percentToQualify ?? 0)),
+            link: level?.verification ?? '#',
         });
 
         if (!Array.isArray(level.records)) {
@@ -84,9 +86,14 @@ export async function fetchLeaderboard(customDir = './data') {
         }
 
         level.records.forEach((record) => {
+            if (!record || typeof record !== 'object') {
+                return;
+            }
+
+            const userName = String(record?.user ?? 'Unknown User');
             const user = Object.keys(scoreMap).find(
-                (u) => u.toLowerCase() === record.user.toLowerCase(),
-            ) || record.user;
+                (u) => u.toLowerCase() === userName.toLowerCase(),
+            ) || userName;
 
             scoreMap[user] ??= {
                 verified: [],
@@ -98,19 +105,19 @@ export async function fetchLeaderboard(customDir = './data') {
             if (record.percent === 100) {
                 completed.push({
                     rank: rank + 1,
-                    level: level.name,
-                    score: score(rank + 1, 100, level.percentToQualify),
-                    link: record.link,
+                    level: level?.name ?? 'Unknown Level',
+                    score: score(rank + 1, 100, Number(level?.percentToQualify ?? 0)),
+                    link: record?.link ?? '#',
                 });
                 return;
             }
 
             progressed.push({
                 rank: rank + 1,
-                level: level.name,
-                percent: record.percent,
-                score: score(rank + 1, record.percent, level.percentToQualify),
-                link: record.link,
+                level: level?.name ?? 'Unknown Level',
+                percent: Number(record?.percent ?? 0),
+                score: score(rank + 1, Number(record?.percent ?? 0), Number(level?.percentToQualify ?? 0)),
+                link: record?.link ?? '#',
             });
         });
     });
@@ -119,7 +126,7 @@ export async function fetchLeaderboard(customDir = './data') {
         const { verified, completed, progressed } = scores;
         const total = [verified, completed, progressed]
             .flat()
-            .reduce((prev, cur) => prev + cur.score, 0);
+            .reduce((prev, cur) => prev + (Number(cur.score) || 0), 0);
 
         return {
             user,
