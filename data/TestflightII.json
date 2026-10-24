@@ -1,0 +1,23 @@
+{
+    "id": 112,
+    "name": "Testflight II",
+    "author": "nMelon",
+    "creators": ["nMelon"],
+    "verifier": "weavilegmd",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://youtu.be/Mwe8RKGA9Ao",
+    "percentToQualify": 50,
+    "enjoyment": "7/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 112,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+
+        }
+    ]
+}
