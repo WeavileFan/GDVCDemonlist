@@ -17,7 +17,11 @@
     ],
     "records": [
         {
-
+            "user": "Axyisz",
+            "link": "https://medal.tv/games/geometry-dash/clips/nNCrNoAfBzP5C_Fy4?invite=cr-MSxQbXQsNjE2NjAyOTQx",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
         }
     ]
 }
