@@ -1,0 +1,23 @@
+{
+    "id": 111,
+    "name": "kxcmxc",
+    "author": "Phobixl",
+    "creators": ["Phobixl"],
+    "verifier": "Phobixl",
+    "clickMethod": "CBF",
+    "verification": "https://www.youtube.com/watch?v=tLZ3FA59sz4&pp=0gcJCSsMAYcqIYzv",
+    "percentToQualify": 50,
+    "enjoyment": "8/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 111,
+            "text": "Allowed (Default)"
+        }
+    ],
+ "records": [
+        {
+
+        }
+    ]
+}
