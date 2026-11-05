@@ -57,6 +57,13 @@
             "percent": 100,
             "hz": 180,
             "clickMethod": "CBF"
+        },
+        {
+            "user": "Dev",
+            "link": "https://medal.tv/games/screen-capture/clips/nRnWH9fqyh5N5aGyB?invite=cr-MSxSTGgsMjE0NTU3MDI3",
+            "percent": 100,
+            "hz": 300,
+            "clickMethod": "CBF"
         }
     ]
 }
