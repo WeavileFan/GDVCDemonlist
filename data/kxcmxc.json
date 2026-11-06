@@ -17,7 +17,11 @@
     ],
  "records": [
         {
-
+          "user": "bxinthabrakk",
+            "link": "https://youtu.be/ddi_DauqNic",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "CBF"
         }
     ]
 }
