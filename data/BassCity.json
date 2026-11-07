@@ -17,7 +17,11 @@
     ],
  "records": [
         {
-
+            "user": "Dev",
+            "link": "https://www.youtube.com/watch?v=r-xfIqOr3lI",
+            "percent": 100,
+            "hz": 300,
+            "clickMethod": "CBF"
         }
     ]
 }
