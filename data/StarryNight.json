@@ -17,7 +17,11 @@
     ],
  "records": [
         {
-
+            "user": "weavilegmd",
+            "link": "https://youtu.be/bCKunbrurBY",
+            "percent": 100,
+            "hz": 240,
+            "clickMethod": "CBF"
         }
     ]
 }
