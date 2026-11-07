@@ -1,0 +1,23 @@
+{
+    "id": 112,
+    "name": "Bass City",
+    "author": "weavilegmd",
+    "creators": ["weavilegmd"],
+    "verifier": "weavilegmd",
+    "clickMethod": "CBF",
+    "verification": "https://youtu.be/sKqKbMsqjpc?si=gXOZWlPqc2cABEBy",
+    "percentToQualify": 50,
+    "enjoyment": "5/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 112,
+            "text": "Allowed (Default)"
+        }
+    ],
+ "records": [
+        {
+
+        }
+    ]
+}
