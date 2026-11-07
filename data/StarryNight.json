@@ -1,0 +1,23 @@
+{
+    "id": 124,
+    "name": "Starry Night",
+    "author": "Strdeh",
+    "creators": ["Strdeh"],
+    "verifier": "Strdeh",
+    "clickMethod": "CBF",
+    "verification": "https://youtu.be/y9KbP-wWw3U?si=zuvkNaQ0eRR8acz5",
+    "percentToQualify": 50,
+    "enjoyment": "5/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 124,
+            "text": "Allowed (Default)"
+        }
+    ],
+ "records": [
+        {
+
+        }
+    ]
+}
