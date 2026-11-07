@@ -20,7 +20,14 @@
             "user": "weavilegmd",
             "link": "https://youtu.be/bCKunbrurBY",
             "percent": 100,
-            "hz": 240,
+            "hz": 180,
+            "clickMethod": "CBF"
+        },
+        {
+            "user": "Dev",
+            "link": "https://medal.tv/games/screen-capture/clips/nSF9UPLJOFXq1wm-8?invite=cr-MSw2SXksMjE0NTU3MDI3",
+            "percent": 100,
+            "hz": 300,
             "clickMethod": "CBF"
         }
     ]
