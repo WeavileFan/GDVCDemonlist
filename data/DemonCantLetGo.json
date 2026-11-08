@@ -36,6 +36,13 @@
             "percent": 100,
             "hz": 300,
             "clickMethod": "COS"
+        },
+        {
+            "user": "weavilegmd",
+            "link": "https://medal.tv/games/requested/clips/nT1B2vmbCLS4ECIwS?invite=cr-MSxJWkMsNjU4NDYyNjAz",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
         }
     ]
 }
