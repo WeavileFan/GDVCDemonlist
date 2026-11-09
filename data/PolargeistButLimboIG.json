@@ -1,0 +1,23 @@
+{
+    "id": 129,
+    "name": "PolargeistButLimboIG",
+    "author": "Strdeh",
+    "creators": ["Strdeh"],
+    "verifier": "Strdeh",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://www.youtube.com/watch?v=2Puobv18cRs",
+    "percentToQualify": 50,
+    "enjoyment": "1/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 129,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+
+        }
+    ]
+}
