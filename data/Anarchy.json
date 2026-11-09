@@ -11,12 +11,8 @@
     "password": "Copyable",
     "popupIDs": [
         {
-            "id": 158,
+            "id": 136,
             "text": "Allowed (Default)"
-        },
-        {
-            "id": 161,
-            "text": "Allowed (2.1 Physics)"
         }
     ],
     "records": [
