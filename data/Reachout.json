@@ -1,0 +1,22 @@
+{
+    "id": 138,
+    "name": "Reachout",
+    "author": "Strdeh",
+    "creators": ["Strdeh"],
+    "verifier": "Strdeh",
+    "clickMethod": "Click Between Frames",
+    "verification": "https://youtu.be/aFQBJJ1l0-4?si=-3_zk2JtOfT9ZoAu",
+    "percentToQualify": 50,
+    "enjoyment": "10/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 138,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+        }
+    ]
+}
