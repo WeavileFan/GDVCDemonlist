@@ -7,7 +7,7 @@
     "clickMethod": "Click On Steps",
     "verification": "https://www.youtube.com/watch?v=lI9iLhspQu0",
     "percentToQualify": 50,
-    "enjoyment": "6/10",
+    "enjoyment": "5.3/10",
     "password": "Copyable",
     "popupIDs": [
         {
@@ -50,6 +50,13 @@
             "percent": 100,
             "hz": 240,
             "clickMethod": "COS"
+        },
+        {
+            "user": "Dev",
+            "link": "https://medal.tv/games/screen-capture/clips/nTWYjp8pe1MLiZbA5?invite=cr-MSxuVXksMjE0NTU3MDI3",
+            "percent": 100,
+            "hz": 300,
+            "clickMethod": "CBF"
         }
     ]
 }
