@@ -23,5 +23,12 @@
             "hz": 300,
             "clickMethod": "CBF"
         }
+        {
+            "user": "Phobixl",
+            "link": "https://www.youtube.com/watch?v=LrIiplH3Kkw",
+            "percent": 100,
+            "hz": 200,
+            "clickMethod": "COS"
+        }
     ]
 }
