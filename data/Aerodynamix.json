@@ -1,0 +1,29 @@
+{
+    "id": 117,
+    "name": "Aerodynamix",
+    "image1": "MediumDemon.png",
+    "image2": "MediumDemonText.png",
+    "author": "Lastyk",
+    "creators": ["Lastyk"],
+    "verifier": "Lastyk",
+    "clickMethod": "Click On Steps",
+    "verification": "https://youtu.be/6nyrIo1Mzog",
+    "percentToQualify": 50,
+    "enjoyment": "4/10",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 117,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+            "user": "cheez11111",
+            "link": "https://medal.tv/games/geometry-dash/clips/nKK7HVVbdXyk_1wv4?invite=cr-MSxOdTksNjA3ODY5MzQy",
+            "percent": 100,
+            "hz": 180,
+            "clickMethod": "COS"
+        }
+    ]
+}
