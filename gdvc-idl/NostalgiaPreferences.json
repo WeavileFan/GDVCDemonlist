@@ -1,12 +1,12 @@
 {
     "id": 139,
-    "name": "Nostalgia Preferences",
+    "name": "Nostalgia Preferences [Tentative]",
     "author": "marcimvp",
     "creators": ["marcimvp"],
     "verifier": "-",
     "clickMethod": "-",
     "verification": "https://www.youtube.com/watch?v=XRb9Ch6vcLg",
-    "percentToQualify": 50,
+    "percentToQualify": 0,
     "enjoyment": "-",
     "password": "Copyable",
     "popupIDs": [
