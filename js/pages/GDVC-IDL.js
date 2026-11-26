@@ -1,4 +1,4 @@
-import List from './List.js';
+import List from './List-IDL.js';
 
 export default {
     ...List,
