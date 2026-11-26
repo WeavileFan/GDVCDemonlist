@@ -6,7 +6,7 @@ export default {
     data() {
         return {
             ...List.data(),
-            dataDir: './DDLPlus',
+            dataDir: './gdvc-idl',
         };
     },
 
