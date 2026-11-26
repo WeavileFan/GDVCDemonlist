@@ -1,0 +1,22 @@
+{
+    "id": 123,
+    "name": "Empty Signal",
+    "author": "jaydangmd",
+    "creators": ["jaydangmd"],
+    "verifier": "-",
+    "clickMethod": "-",
+    "verification": "https://www.youtube.com/watch?v=3VSmnqvzANY",
+    "percentToQualify": 0,
+    "enjoyment": "-",
+    "password": "Copyable",
+    "popupIDs": [
+        {
+            "id": 123,
+            "text": "Allowed (Default)"
+        }
+    ],
+    "records": [
+        {
+        }
+    ]
+}
