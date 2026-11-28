@@ -4,7 +4,7 @@ import { score } from "../score.js";
 import { fetchEditors, fetchList } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
-import LevelAuthors from "../components/List/LevelAuthors.js";
+import LevelAuthors from "../components/List/LevelAuthorsIDL.js";
 
 export default {
     components: { Spinner, LevelAuthors },
